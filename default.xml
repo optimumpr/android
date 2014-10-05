@@ -492,7 +492,7 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="vendor/cm" name="DarkCyanogenMod/android_vendor_cm" remote="private" revision="android-4.4" />
+  <project path="vendor/cm" name="DarkCyanogenMod/android_vendor_cm" remote="private" revision="android-4.4_new" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
 
   <!-- AOSP GCC 4.8 -->
