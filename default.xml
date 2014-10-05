@@ -17,14 +17,14 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="CyanogenMod/android_build" groups="pdk" >
+  <project path="build" name="DarkCyanogenMod/android_build" remote="private" revision="android-4.4" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="CyanogenMod/android" />
+  <project path="android" name="DarkCyanogenMod/android" remote="private" revision="android-4.4_new" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
-  <project path="art" name="CyanogenMod/android_art" />
+  <project path="art" name="DarkCyanogenMod/android_art" remote="private" revision="android-4.4" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
@@ -35,7 +35,7 @@
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="developers/docs" name="platform/developers/docs" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="development" name="CyanogenMod/android_development" />
+  <project path="development" name="DarkCyanogenMod/android_development" remote="private" revision="android-4.4" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
   <project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="CyanogenMod/android_device_generic_common" groups="pdk" />
@@ -255,7 +255,7 @@
   <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="external/skia" name="CyanogenMod/android_external_skia" />
+  <project path="external/skia" name="DarkCyanogenMod/android_external_skia" remote="private" revision="android-4.4" />
   <project path="external/smack" name="platform/external/smack" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/smali" name="CyanogenMod/android_external_smali" />
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" groups="pdk" />
@@ -294,18 +294,19 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
+  <project path="frameworks/base" name="DarkCyanogenMod/android_frameworks_base" remote="private" revision="android-4.4_new" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
   <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" />
   <project path="frameworks/mff" name="CyanogenMod/android_frameworks_mff" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
-  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" groups="pdk" />
+  <project path="frameworks/native" name="DarkCyanogenMod/android_frameworks_native" remote="private" revision="android-4.4_new" groups="pdk" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
   <project path="frameworks/opt/carddav" name="CyanogenMod/android_frameworks_opt_carddav" />
+  <project path="frameworks/opt/cards" name="SlimRoms/android_frameworks_opt_cards" remote="private" revision="kk4.4" />
   <project path="frameworks/opt/colorpicker" name="CyanogenMod/android_frameworks_opt_colorpicker" />
-  <project path="frameworks/opt/datetimepicker" name="CyanogenMod/android_frameworks_opt_datetimepicker" />
+  <project path="frameworks/opt/datetimepicker" name="DarkCyanogenMod/android_frameworks_opt_datetimepicker" remote="private" revision="android-4.4" />
   <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" />
   <project path="frameworks/opt/hardware" name="CyanogenMod/android_frameworks_opt_hardware" />
   <project path="frameworks/opt/inputmethodcommon" name="CyanogenMod/android_frameworks_opt_inputmethodcommon" />
@@ -337,10 +338,12 @@
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" groups="qcom" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" groups="caf" />
+  <project path="hardware/qcom/display-caf-new" name="CyanogenMod/android_hardware_qcom_display-caf-new" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" />
   <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" groups="caf" />
+  <project path="hardware/qcom/media-caf-new" name="CyanogenMod/android_hardware_qcom_media-caf-new" />
   <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x74" name="CyanogenMod/android_hardware_qcom_msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" />
@@ -355,52 +358,48 @@
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" />
+  <project path="packages/apps/Apollo" name="omnirom/android_packages_apps_Apollo" remote="private" revision="android-4.4" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
-  <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
-  <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
-  <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
+  <project path="packages/apps/Browser" name="DarkCyanogenMod/android_packages_apps_Browser" remote="private" revision="android-4.4" />
+  <project path="packages/apps/Calculator" name="DarkCyanogenMod/android_packages_apps_Calculator" remote="private" revision="android-4.4" />
+  <project path="packages/apps/Calendar" name="DarkCyanogenMod/android_packages_apps_Calendar" remote="private" revision="android-4.4" />
   <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
-  <project path="packages/apps/CMAccount" name="CyanogenMod/android_packages_apps_CMAccount" />
-  <project path="packages/apps/CMBugReport" name="CyanogenMod/android_packages_apps_CMBugreport" />
-  <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" />
+  <project path="packages/apps/CMAccount" name="DarkCyanogenMod/android_packages_apps_CMAccount" remote="private" revision="android-4.4" />
   <project path="packages/apps/CMHome" name="CyanogenMod/android_packages_apps_CMHome" />
-  <project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" />
-  <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
-  <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
-  <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" />
-  <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
-  <project path="packages/apps/Dialer" name="CyanogenMod/android_packages_apps_Dialer" />
-  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" />
-  <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
+  <project path="packages/apps/Contacts" name="DarkCyanogenMod/android_packages_apps_Contacts" remote="private" revision="android-4.4" />
+  <project path="packages/apps/ContactsCommon" name="DarkCyanogenMod/android_packages_apps_ContactsCommon" remote="private" revision="android-4.4" />
+  <project path="packages/apps/DeskClock" name="DarkCyanogenMod/android_packages_apps_DeskClock" remote="private" revision="android-4.4" />
+  <project path="packages/apps/Dialer" name="DarkCyanogenMod/android_packages_apps_Dialer" remote="private" revision="android-4.4_new" />
+  <project path="packages/apps/DSPManager" name="omnirom/android_packages_apps_DSPManager" remote="private" revision="android-4.4" />
+  <project path="packages/apps/Email" name="DarkCyanogenMod/android_packages_apps_Email" remote="private" revision="android-4.4" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
   <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
-  <project path="packages/apps/InCallUI" name="CyanogenMod/android_packages_apps_InCallUI" />
+  <project path="packages/apps/InCallUI" name="DarkCyanogenMod/android_packages_apps_InCallUI" remote="private" revision="android-4.4_new" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" />
-  <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" />
+  <project path="packages/apps/Mms" name="DarkCyanogenMod/android_packages_apps_Mms" remote="private" revision="android-4.4_new" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
-  <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="DarkCyanogenMod/android_packages_apps_Settings" remote="private" revision="android-4.4_new" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
-  <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
+  <project path="packages/apps/SoundRecorder" name="DarkCyanogenMod/android_packages_apps_SoundRecorder" remote="private" revision="android-4.4" />
+  <project path="packages/apps/ScreenRecorder" name="DarkCyanogenMod/android_packages_apps_ScreenRecorder" remote="private" revision="android-4.4" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
   <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" />
   <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" />
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
-  <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" />
+  <project path="packages/apps/UnifiedEmail" name="DarkCyanogenMod/android_packages_apps_UnifiedEmail" remote="private" revision="android-4.4" />
   <project path="packages/apps/VideoEditor" name="CyanogenMod/android_packages_apps_VideoEditor" />
-  <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" />
   <project path="packages/apps/VoicePlus" name="CyanogenMod/android_packages_apps_VoicePlus" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
   <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" />
@@ -409,8 +408,8 @@
   <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" />
-  <project path="packages/providers/DownloadProvider" name="CyanogenMod/android_packages_providers_DownloadProvider" />
-  <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" />
+  <project path="packages/providers/DownloadProvider" name="DarkCyanogenMod/android_packages_providers_DownloadProvider" remote="private" revision="android-4.4" />
+  <project path="packages/providers/MediaProvider" name="DarkCyanogenMod/android_packages_providers_MediaProvider" remote="private" revision="android-4.4" />
   <project path="packages/providers/PartnerBookmarksProvider" name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" />
   <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" />
@@ -418,7 +417,7 @@
   <project path="packages/screensavers/Basic" name="CyanogenMod/android_packages_screensavers_Basic" />
   <project path="packages/screensavers/PhotoTable" name="CyanogenMod/android_packages_screensavers_PhotoTable" />
   <project path="packages/screensavers/WebView" name="CyanogenMod/android_packages_screensavers_WebView" />
-  <project path="packages/services/Telephony" name="CyanogenMod/android_packages_services_Telephony" />
+  <project path="packages/services/Telephony" name="DarkCyanogenMod/android_packages_services_Telephony" remote="private" revision="android-4.4_new" />
   <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" />
   <project path="packages/wallpapers/Galaxy4" name="CyanogenMod/android_packages_wallpapers_Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="CyanogenMod/android_packages_wallpapers_HoloSpiral" />
@@ -478,11 +477,11 @@
   <project path="sdk" name="CyanogenMod/android_sdk" />
   <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
-  <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
+  <project path="system/media" name="DarkCyanogenMod/android_system_media" remote="private" revision="android-4.4" groups="pdk" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
-  <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
+  <project path="system/vold" name="DarkCyanogenMod/android_system_vold" remote="private" revision="android-4.4" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
@@ -493,6 +492,21 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
+  <project path="vendor/cm" name="DarkCyanogenMod/android_vendor_cm" remote="private" revision="android-4.4" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
+
+  <!-- AOSP GCC 4.8 -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="aosp" groups="pdk,linux,arm" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" remote="aosp" revision="master" />
+
+  <!-- Sony Xperia Z1 repo -->
+  <project path="device/sony/honami" name="DarkCyanogenMod/android_device_sony_honami" remote="private" revision="android-4.4_new" />
+  <project path="device/sony/rhine-common" name="DarkCyanogenMod/android_device_sony_rhine-common" remote="private" revision="android-4.4_new" />
+  <project path="device/sony/common" name="CyanogenMod/android_device_sony_common" />
+  <project path="device/sony/qcom-common" name="CyanogenMod/android_device_sony_qcom-common" />
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" />
+  <project path="kernel/sony/msm8974" name="CyanogenMod/android_kernel_sony_msm8974" />
+
+  <!-- Sony vendor files -->
+  <project path="vendor/sony" name="themuppets/proprietary_vendor_sony" remote="private" revision="cm-11.0" />
 </manifest>
