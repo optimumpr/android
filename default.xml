@@ -21,7 +21,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="DarkCyanogenMod/android" remote="private" revision="android-4.4_new" />
+  <project path="android" name="DarkCyanogenMod/android" remote="private" revision="android-4.4_legacy" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="DarkCyanogenMod/android_art" remote="private" revision="android-4.4" />
