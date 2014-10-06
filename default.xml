@@ -301,7 +301,7 @@
   <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" />
   <project path="frameworks/mff" name="CyanogenMod/android_frameworks_mff" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
-  <project path="frameworks/native" name="DarkCyanogenMod/android_frameworks_native" remote="private" revision="android-4.4_new" groups="pdk" />
+  <project path="frameworks/native" name="DarkCyanogenMod/android_frameworks_native" remote="private" revision="android-4.4_legacy" groups="pdk" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
   <project path="frameworks/opt/carddav" name="CyanogenMod/android_frameworks_opt_carddav" />
   <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" remote="private" revision="kk4.4" />
@@ -333,16 +333,16 @@
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom" />
-  <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" groups="caf" />
+  <project path="hardware/qcom/audio-caf" name="DarkCyanogenMod/android_hardware_qcom_audio-caf" remote="private" revision="android-4.4_legacy" groups="caf" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" groups="qcom" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom" />
-  <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" groups="caf" />
+  <project path="hardware/qcom/display-caf" name="DarkCyanogenMod/android_hardware_qcom_display-caf" remote="private" revision="android-4.4_legacy" groups="caf" />
   <project path="hardware/qcom/display-caf-new" name="CyanogenMod/android_hardware_qcom_display-caf-new" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" />
-  <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" groups="caf" />
+  <project path="hardware/qcom/media-caf" name="DarkCyanogenMod/android_hardware_qcom_media-caf" remote="private" revision="android-4.4_legacy" groups="caf" />
   <project path="hardware/qcom/media-caf-new" name="CyanogenMod/android_hardware_qcom_media-caf-new" />
   <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x74" name="CyanogenMod/android_hardware_qcom_msm8x74" groups="qcom_msm8x74" />
@@ -499,14 +499,10 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="aosp" groups="pdk,linux,arm" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" remote="aosp" revision="master" />
 
-  <!-- Sony Xperia Z1 repo -->
-  <project path="device/sony/honami" name="DarkCyanogenMod/android_device_sony_honami" remote="private" revision="android-4.4_new" />
-  <project path="device/sony/rhine-common" name="DarkCyanogenMod/android_device_sony_rhine-common" remote="private" revision="android-4.4_new" />
-  <project path="device/sony/common" name="CyanogenMod/android_device_sony_common" />
-  <project path="device/sony/qcom-common" name="CyanogenMod/android_device_sony_qcom-common" />
-  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" />
-  <project path="kernel/sony/msm8974" name="DarkCyanogenMod/android_kernel_sony_msm8974" remote="private" revision="android-4.4_new" />
+  <!-- Samsung Galaxy S Plus (Ariesve) repo -->
+  <project path="device/samsung/ariesve" name="DarkCyanogenMod/android_device_samsung_ariesve" remote="private" revision="android-4.4" />
+  <project path="kernel/samsung/msm7x30" name="DarkCyanogenMod/samsung-kernel-msm7x30" remote="private" revision="android-4.4" />
 
-  <!-- Sony vendor files -->
-  <project path="vendor/sony" name="themuppets/proprietary_vendor_sony" remote="private" revision="cm-11.0" />
+  <!-- Samsung (Ariesve) vendor files -->
+  <project path="vendor/samsung/ariesve" name="DarkCyanogenMod/android_vendor_samsung_ariesve" remote="private" revision="android-4.4" />
 </manifest>
