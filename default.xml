@@ -175,6 +175,8 @@
   <project path="external/koush/Superuser" name="CyanogenMod/Superuser" />
   <project path="external/koush/Widgets" name="CyanogenMod/Widgets" />
   <project path="external/libcap-ng" name="CyanogenMod/android_external_libcap-ng" />
+  <project path="external/libcyanogen-dsp" name="DarkCyanogenMod/android_external_libcyanogen-dsp" remote="private" revision="android-4.4" />
+  <project path="external/libdirac" name="DarkCyanogenMod/android_external_libdirac" remote="private" revision="android-4.4" />
   <project path="external/libexif" name="platform/external/libexif" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/libffi" name="CyanogenMod/android_external_libffi" />
   <project path="external/libgsm" name="CyanogenMod/android_external_libgsm" groups="pdk" />
@@ -374,7 +376,7 @@
   <project path="packages/apps/ContactsCommon" name="DarkCyanogenMod/android_packages_apps_ContactsCommon" remote="private" revision="android-4.4" />
   <project path="packages/apps/DeskClock" name="DarkCyanogenMod/android_packages_apps_DeskClock" remote="private" revision="android-4.4" />
   <project path="packages/apps/Dialer" name="DarkCyanogenMod/android_packages_apps_Dialer" remote="private" revision="android-4.4_new" />
-  <project path="packages/apps/DSPManager" name="omnirom/android_packages_apps_DSPManager" remote="private" revision="android-4.4" />
+  <project path="packages/apps/DSPManager" name="DarkCyanogenMod/android_packages_apps_DSPManager" remote="private" revision="android-4.4" />
   <project path="packages/apps/Email" name="DarkCyanogenMod/android_packages_apps_Email" remote="private" revision="android-4.4" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
   <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" />
