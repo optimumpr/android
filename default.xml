@@ -505,7 +505,7 @@
   <project path="device/sony/honami" name="DarkCyanogenMod/android_device_sony_honami" remote="private" revision="android-4.4_new" />
   <project path="device/sony/rhine-common" name="DarkCyanogenMod/android_device_sony_rhine-common" remote="private" revision="android-4.4_new" />
   <project path="device/sony/common" name="CyanogenMod/android_device_sony_common" />
-  <project path="device/sony/qcom-common" name="CyanogenMod/android_device_sony_qcom-common" />
+  <project path="device/sony/qcom-common" name="DarkCyanogenMod/android_device_sony_qcom-common" remote="private" revision="android-4.4" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" />
   <project path="kernel/sony/msm8974" name="DarkCyanogenMod/android_kernel_sony_msm8974" remote="private" revision="android-4.4_new" />
 
