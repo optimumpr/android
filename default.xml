@@ -397,7 +397,7 @@
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
   <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" />
-  <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" />
+  <project path="packages/apps/Torch" name="DarkCyanogenMod/android_packages_apps_Torch" remote="private" revision="android-4.4_legacy" />
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
   <project path="packages/apps/UnifiedEmail" name="DarkCyanogenMod/android_packages_apps_UnifiedEmail" remote="private" revision="android-4.4" />
   <project path="packages/apps/VideoEditor" name="CyanogenMod/android_packages_apps_VideoEditor" />
@@ -500,10 +500,12 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="aosp" groups="pdk,linux,arm" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" remote="aosp" revision="master" />
 
-  <!-- Samsung Galaxy S Plus (Ariesve) repo -->
-  <project path="device/samsung/ariesve" name="DarkCyanogenMod/android_device_samsung_ariesve" remote="private" revision="android-4.4" />
+  <!-- Samsung msm7x30 repo -->
+  <project path="device/samsung/ancora" name="DarkCyanogenMod/android_device_samsung_msm7x30" remote="private" revision="android-4.4_ancora" />
+  <project path="device/samsung/ariesve" name="DarkCyanogenMod/android_device_samsung_msm7x30" remote="private" revision="android-4.4_ariesve" />
   <project path="kernel/samsung/msm7x30" name="DarkCyanogenMod/samsung-kernel-msm7x30" remote="private" revision="android-4.4" />
 
-  <!-- Samsung (Ariesve) vendor files -->
-  <project path="vendor/samsung/ariesve" name="DarkCyanogenMod/android_vendor_samsung_ariesve" remote="private" revision="android-4.4" />
+  <!-- Samsung msm7x30 vendor files -->
+  <project path="vendor/samsung/ancora" name="DarkCyanogenMod/android_vendor_samsung_msm7x30" remote="private" revision="android-4.4_ancora" />
+  <project path="vendor/samsung/ariesve" name="DarkCyanogenMod/android_vendor_samsung_msm7x30" remote="private" revision="android-4.4_ariesve" />
 </manifest>
