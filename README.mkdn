@@ -1,13 +1,13 @@
 Black Argon
 ===========
 
-Getting Started
+Know How
 ---------------
 
-To initialize your local repository using the Black Argon & CyanogenMod trees, use a command like this:
+Set upt android environment and initiate repository
 
     repo init -u git://github.com/optimumpr/android.git -b android-4.4_new
 
-Then to sync up:
+Then sync it up up
 
     repo sync
