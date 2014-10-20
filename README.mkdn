@@ -4,7 +4,7 @@ Black Argon
 Know How
 ---------------
 
-Set upt android environment and initiate repository
+Set up your android environment and initiate this repository
 
     repo init -u git://github.com/optimumpr/android.git -b android-4.4_new
 
