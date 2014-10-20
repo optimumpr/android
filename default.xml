@@ -17,11 +17,11 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="DarkCyanogenMod/android_build" remote="private" revision="android-4.4" groups="pdk" >
+  <project path="build" name="optimumpr/android_build" remote="private" revision="android-4.4" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="DarkCyanogenMod/android" remote="private" revision="android-4.4_new" />
+  <project path="android" name="optimumpr/android" remote="private" revision="android-4.4_new" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="DarkCyanogenMod/android_art" remote="private" revision="android-4.4" />
@@ -499,13 +499,13 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" remote="aosp" revision="master" />
 
   <!-- Sony Xperia Z1 repo -->
-  <project path="device/sony/honami" name="DarkCyanogenMod/android_device_sony_honami" remote="private" revision="android-4.4_new" />
+  <project path="device/sony/honami" name="optimumpr/android_device_sony_honami" remote="private" revision="android-4.4_new" />
   <project path="device/sony/amami" name="DarkCyanogenMod/android_device_sony_amami" remote="private" revision="android-4.4" />
-  <project path="device/sony/rhine-common" name="DarkCyanogenMod/android_device_sony_rhine-common" remote="private" revision="android-4.4_new" />
+  <project path="device/sony/rhine-common" name="optimumpr/android_device_sony_rhine-common" remote="private" revision="android-4.4_new" />
   <project path="device/sony/common" name="CyanogenMod/android_device_sony_common" />
-  <project path="device/sony/qcom-common" name="DarkCyanogenMod/android_device_sony_qcom-common" remote="private" revision="android-4.4" />
+  <project path="device/sony/qcom-common" name="optimumpr/android_device_sony_qcom-common" remote="private" revision="android-4.4" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" />
-  <project path="kernel/sony/msm8974" name="DarkCyanogenMod/android_kernel_sony_msm8974" remote="private" revision="android-4.4_new" />
+  <project path="kernel/sony/msm8974" name="optimumpr/android_kernel_sony_msm8974" remote="private" revision="android-4.4_new" />
 
   <!-- Sony vendor files -->
   <project path="vendor/sony" name="themuppets/proprietary_vendor_sony" remote="private" revision="cm-11.0" />
