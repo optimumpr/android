@@ -1,15 +1,12 @@
-DarkCyanogenMod
+Black Argon
 ===========
 
 Getting Started
 ---------------
 
-To get started with Android/DarkCyanogenMod, you'll need to get
-familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+To initialize your local repository using the Black Argon & CyanogenMod trees, use a command like this:
 
-To initialize your local repository using the DarkCyanogenMod & CyanogenMod trees, use a command like this:
-
-    repo init -u git://github.com/DarkCyanogenMod/android.git -b android-4.4_new
+    repo init -u git://github.com/optimumpr/android.git -b android-4.4_new
 
 Then to sync up:
 
