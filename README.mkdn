@@ -8,6 +8,9 @@ Set up your android environment and initiate this repository
 
     repo init -u git://github.com/optimumpr/android.git -b android-4.4_new
 
-Then sync it up up
+Then sync it up
 
     repo sync
+
+Then follow directions on how to build Cyanogenmod for your device
+    
