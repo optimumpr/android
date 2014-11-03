@@ -506,7 +506,7 @@
   <project path="device/sony/common" name="CyanogenMod/android_device_sony_common" />
   <project path="device/sony/qcom-common" name="optimumpr/android_device_sony_qcom-common" remote="private" revision="android-4.4" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" />
-  <project path="kernel/sony/msm8974" name="optimumpr/android_kernel_sony_msm8974" remote="private" revision="android-4.4_new" />
+  <project path="kernel/sony/msm8974" name="optimumpr/android_kernel_sony_msm8974" remote="private" revision="cm-11.0" />
 
   <!-- Sony vendor files -->
   <project path="vendor/sony" name="themuppets/proprietary_vendor_sony" remote="private" revision="cm-11.0" />
